@@ -8,5 +8,5 @@ services:
     ports:
       - 1703:8080
     volumes:
-      - .:/usr/src/app
+      - ./www:/usr/src/app/www
 
