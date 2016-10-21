@@ -9,4 +9,5 @@ services:
       - 1703:8080
     volumes:
       - ./www:/usr/src/app/www
+      - ./package.json:/usr/src/app/package.json
 
