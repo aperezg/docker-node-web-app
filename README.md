@@ -2,6 +2,10 @@
 
 The docker node server creates a container with the starter necessary tools for begin your node application.
 
+# www folder #
+This folder is where you add the source of your web application, is a docker volume and to start
+contain the server.js to run the node server.
+
 # To Run the environment #
 ```sh
 docker-compose up -d
