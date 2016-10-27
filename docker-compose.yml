@@ -8,6 +8,5 @@ services:
     ports:
       - 1703:8080
     volumes:
-      - ./www:/usr/src/app/www
-      - ./package.json:/usr/src/app/package.json
-
+      - ./www:/usr/src/app
+      - /usr/src/app/node_modules

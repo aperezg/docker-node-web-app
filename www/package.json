@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Node js on Docker",
   "author": "Adrian Perez <perezg.adrian@gmail.com>",
-  "main": "www/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node www/server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.13.3"
