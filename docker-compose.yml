@@ -3,10 +3,10 @@ services:
   node:
     build:
       context: .
-      dockerfile: config/docker/node/Dockerfile
+      dockerfile: ./config/docker/node/Dockerfile
     container_name: node_js
     ports:
       - 1703:8080
     volumes:
-      - ./www:/usr/src/app
-      - /usr/src/app/node_modules
+      - ./www:${ROOT_APP_FOLDER}
+      - ${ROOT_APP_FOLDER}/node_modules

@@ -1,7 +1,8 @@
 FROM node:6.9
 
-COPY www/ /usr/src/app
-WORKDIR /usr/src/app
+COPY www/ /usr/src/app/www
+
+WORKDIR /usr/src/app/www
 
 RUN npm install
 
