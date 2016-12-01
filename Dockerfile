@@ -7,6 +7,6 @@ WORKDIR /usr/src/app
 
 RUN npm install
 
-EXPOSE 1703
+EXPOSE 8080
 CMD ["npm", "start"]
 
