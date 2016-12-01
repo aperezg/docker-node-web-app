@@ -9,7 +9,7 @@ The docker node server creates a container with the starter necessary tools for 
 ## To run
 
 ```sh
-docker run --rm -p 80:8080 -v $PWD/www:/usr/src/app/www -v $PWD/package.json:/usr/src/app/package.json aperezg/docker-node-web-app:latest
+docker run --rm -p 80:8080 -v $PWD/www:/usr/src/app/www -v $PWD/package.json:/usr/src/app/package.json aperezg/node-web-app:latest
 ```
 
 ## Run with docker compose
@@ -17,7 +17,7 @@ docker run --rm -p 80:8080 -v $PWD/www:/usr/src/app/www -v $PWD/package.json:/us
 version: '2'
 services:
     php:
-        image: aperezg/docker-node-web-app
+        image: aperezg/node-web-app
         ports:
             - 80:8080
         volumes:
